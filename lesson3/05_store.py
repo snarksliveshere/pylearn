@@ -29,7 +29,21 @@ store = {
         {'quantity': 43, 'price': 97},
     ],
 }
+inv_map = {v: k for k, v in goods.items()}
 
+for k, v in store.items():
+    sum1 = 0
+    for _, j in enumerate(v):
+        q = 0
+        price = 0
+        for a, n in j.items():
+            if a == "quantity":
+                q += n
+            else:
+                price += n
+        p = price * q
+        sum1 += p
+    print(inv_map[k], ":", sum1)
 # Рассчитать на какую сумму лежит каждого товара на складе.
 #
 # Вывести суммарную стоимость каждого товара на складе c помощью циклов
@@ -45,11 +59,4 @@ store = {
 #         подсчет количества товара
 #         подсчет стоимости товара
 #     вывод на консоль количества и стоимости товара на складе
-
-# TODO здесь ваш код
-
-
-
-
-
 

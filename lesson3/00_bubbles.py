@@ -14,18 +14,15 @@ def create_circle(point, step, color = sd.COLOR_YELLOW):
 
 
 # Нарисовать пузырек - три вложенных окружностей с шагом 5 пикселей
-# TODO здесь ваш код
+
 # for v in range(3):
 #     point = sd.get_point(100, 100)
 #     r = radius + 5 * v
 #     create_circle(point, r)
 
 # Написать функцию рисования пузырька, принммающую 2 (или более) параметра: точка рисовании и шаг
-# TODO здесь ваш код
-
 
 # Нарисовать 10 пузырьков в ряд
-# TODO здесь ваш код
 # for x in range(10):
 #     xx = 100 + x*100
 #     point = sd.get_point(xx, 100)
@@ -33,7 +30,6 @@ def create_circle(point, step, color = sd.COLOR_YELLOW):
 
 
 # Нарисовать три ряда по 10 пузырьков
-# TODO здесь ваш код
 # for y in range(3):
 #     for x in range(10):
 #         xx = 100 + x * 100
@@ -41,7 +37,6 @@ def create_circle(point, step, color = sd.COLOR_YELLOW):
 #         create_circle(point, 5)
 
 # Нарисовать 100 пузырьков в произвольных местах экрана случайными цветами
-# TODO здесь ваш код
 
 # for v in range(100):
 #     rp = sd.random_point()

@@ -11,16 +11,11 @@
 
 envelop_x, envelop_y = 10, 7
 paper_x, paper_y = 8, 9
-# проверить для
-# paper_x, paper_y = 9, 8
-# paper_x, paper_y = 6, 8
-# paper_x, paper_y = 8, 6
-# paper_x, paper_y = 3, 4
-# paper_x, paper_y = 11, 9
-# paper_x, paper_y = 9, 11
-# (просто раскоментировать нужную строку и проверить свой код)
+papers = ([8, 9], [9, 8], [6, 8], [8, 6], [3, 4], [11, 9], [9, 11])
 
-# TODO здесь ваш код
+for i, v in papers:
+    if i <= envelop_x and v <= envelop_y:
+        print("match", i, v)
 
 # Усложненное задание, решать по желанию.
 # Заданы размеры hole_x, hole_y прямоугольного отверстия и размеры brick_х, brick_у, brick_z кирпича (все размеры
@@ -49,4 +44,4 @@ paper_x, paper_y = 8, 9
 # brick_x, brick_y, brick_z = 3, 11, 6
 # (просто раскоментировать нужную строку и проверить свой код)
 
-# TODO здесь ваш код
+

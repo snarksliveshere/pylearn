@@ -11,4 +11,10 @@
 
 educational_grant, expenses = 10000, 12000
 
-# TODO здесь ваш код
+sum = expenses
+for v in range(9):
+    new_month_expenses = expenses * 0.03
+    sum1 = expenses + new_month_expenses
+    sum += sum1
+
+print(sum - educational_grant * 10)
